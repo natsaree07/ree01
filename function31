@@ -1,0 +1,13 @@
+#include <stdio.h>
+float cm2inch(float cm);
+int main(){
+    float cm_1;
+    printf("Enter cm :");
+    scanf("%f", &cm_1);
+    printf("%.2f cm = %.2f inch\n",cm_1, cm2inch(float cm));
+    return 0;
+}
+ float cm2inch(float cm)
+{
+    return 0.393701*cm;
+}
